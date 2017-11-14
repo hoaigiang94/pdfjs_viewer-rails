@@ -6447,6 +6447,9 @@ var pdfjsWebLibs;
    var validateFileURL;
    var HOSTED_VIEWER_ORIGINS = [
     'null',
+    'http://ivet.dev:8080',
+    'https://ivet.hazuu.com',
+    'https://portal.ivetinstitute.com.au',
     'http://mozilla.github.io',
     'https://mozilla.github.io'
    ];
