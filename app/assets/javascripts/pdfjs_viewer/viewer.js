@@ -7366,7 +7366,7 @@ var pdfjsWebLibs;
     return overlayPromise;
    }
    PDFPrintServiceFactory.instance = {
-    supportsPrinting: true,
+    supportsPrinting: false,
     createPrintService: function (pdfDocument, pagesOverview, printContainer) {
      if (activeService) {
       throw new Error('The print service is created and active.');
